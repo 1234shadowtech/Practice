@@ -9,7 +9,7 @@ def calculate_area(shape, *args):
         base, height = args
         return 0.5 * base * height
     else:
-        return 0
+        return None
 
 def process_data(data):
     result = []
